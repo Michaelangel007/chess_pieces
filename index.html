@@ -1,0 +1,109 @@
+<html>
+    <style>
+
+.hue000 { color:hsl(  0,100%,50%); }
+.hue030 { color:hsl( 30,100%,50%); }
+.hue060 { color:hsl( 60,100%,50%); }
+.hue090 { color:hsl( 90,100%,50%); }
+.hue120 { color:hsl(120,100%,50%); }
+.hue150 { color:hsl(150,100%,50%); }
+.hue180 { color:hsl(180,100%,50%); }
+.hue210 { color:hsl(210,100%,50%); }
+.hue240 { color:hsl(240,100%,50%); }
+.hue270 { color:hsl(270,100%,50%); }
+.hue300 { color:hsl(300,100%,50%); }
+.hue330 { color:hsl(330,100%,50%); }
+
+table.border
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: grey;
+}
+
+td, th
+{
+    vertical-align: top;
+    padding: 4px 10px;
+    border: 1px solid #bbb;
+}
+
+span.shadow222
+{
+    text-shadow: 0px 0px #222;
+}
+
+span.shadow000
+{
+    text-shadow: 0px 0px #000;
+}
+
+    </style>
+    <body>
+        (Monochrome) Chess Pieces <b>without</b> drop shadow
+        <table class='border'>
+            <tr><th>Piece   </th><th> White      </th><th>Black       </th><th>Piece                   </th></tr>
+            <tr><td>Pawn    </td><td>&amp;#x2659;</td><td>&amp;#x265F;</td><td>&#x2659; &#x265f;</td></tr>
+            <tr><td>Rook    </td><td>&amp;#x2656;</td><td>&amp;#x256C;</td><td>&#x2656; &#x265C;</td></tr>
+            <tr><td>Knight  </td><td>&amp;#x2658;</td><td>&amp;#x256E;</td><td>&#x2658; &#x265E;</td></tr>
+            <tr><td>Bishop  </td><td>&amp;#x2657;</td><td>&amp;#x265D;</td><td>&#x2657; &#x265D;</td></tr>
+            <tr><td>Queen   </td><td>&amp;#x2655;</td><td>&amp;#x265B;</td><td>&#x2655; &#x265B;</td></tr>
+            <tr><td>King    </td><td>&amp;#x2654;</td><td>&amp;#x265A;</td><td>&#x2654; &#x265A;</td></tr>
+        </table>
+
+        <br>
+
+        (Monochrome) Chess Pieces <b>with</b> drop shadow (<span style='border:1px solid black; padding: 1px;'>0px 0px #222</span>)
+        <table class='border'>
+            <tr><th>Piece   </th><th> White      </th><th>Black       </th><th>Piece                                                               </th></tr>
+            <tr><td>Pawn    </td><td>&amp;#x2659;</td><td>&amp;#x265F;</td><td><span class='shadow222'>&#x2659; &#x265f;</span></td></tr>
+            <tr><td>Rook    </td><td>&amp;#x2656;</td><td>&amp;#x256C;</td><td><span class='shadow222'>&#x2656; &#x265C;</span></td></tr>
+            <tr><td>Knight  </td><td>&amp;#x2658;</td><td>&amp;#x256E;</td><td><span class='shadow222'>&#x2658; &#x265E;</span></td></tr>
+            <tr><td>Bishop  </td><td>&amp;#x2657;</td><td>&amp;#x265D;</td><td><span class='shadow222'>&#x2657; &#x265D;</span></td></tr>
+            <tr><td>Queen   </td><td>&amp;#x2655;</td><td>&amp;#x265B;</td><td><span class='shadow222'>&#x2655; &#x265B;</span></td></tr>
+            <tr><td>King    </td><td>&amp;#x2654;</td><td>&amp;#x265A;</td><td><span class='shadow222'>&#x2654; &#x265A;</span></td></tr>
+        </table>
+
+        <hr>
+
+        (Color) Chess Pieces <b>without</b> drop shadow
+        <table class='border'>
+            <tr><th>Color     </th><th align='right'>Hue </th><th>Pieces</th></tr>
+            <tr><td>R         </td><td align='right'>  0°</td><td><span class='hue000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>O         </td><td align='right'> 30°</td><td><span class='hue030'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Y         </td><td align='right'> 60°</td><td><span class='hue060'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Chartreuse</td><td align='right'> 90°</td><td><span class='hue090'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>G         </td><td align='right'>120°</td><td><span class='hue120'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Spring    </td><td align='right'>150°</td><td><span class='hue150'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Azure     </td><td align='right'>180°</td><td><span class='hue180'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>C         </td><td align='right'>210°</td><td><span class='hue210'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>B         </td><td align='right'>240°</td><td><span class='hue240'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>V         </td><td align='right'>270°</td><td><span class='hue270'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>M         </td><td align='right'>300°</td><td><span class='hue300'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Rose      </td><td align='right'>330°</td><td><span class='hue330'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+        </table>
+
+        <br>
+
+        (Color) Chess Pieces <b>with</b> drop shadow (<span style='border:1px solid black; padding: 1px;'>0px 0px #000</span>)
+        <table class='border'>
+            <tr><th>Color     </th><th align='right'>Hue </th><th>Pieces</th></tr>
+            <tr><td>R         </td><td align='right'>  0°</td><td><span class='hue000 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>O         </td><td align='right'> 30°</td><td><span class='hue030 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Y         </td><td align='right'> 60°</td><td><span class='hue060 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Chartreuse</td><td align='right'> 90°</td><td><span class='hue090 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>G         </td><td align='right'>120°</td><td><span class='hue120 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Spring    </td><td align='right'>150°</td><td><span class='hue150 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Azure     </td><td align='right'>180°</td><td><span class='hue180 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>C         </td><td align='right'>210°</td><td><span class='hue210 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>B         </td><td align='right'>240°</td><td><span class='hue240 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>V         </td><td align='right'>270°</td><td><span class='hue270 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>M         </td><td align='right'>300°</td><td><span class='hue300 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+            <tr><td>Rose      </td><td align='right'>330°</td><td><span class='hue330 shadow000'>&#x2659;&#x2656;&#x2658;&#x2657;&#x2655;&#x2654; &#x265f;&#x265C;&#x265E;&#x265D;&#x265B;&#x265A;</span> </td> </tr>
+        </table>
+
+
+    </body>
+</html>
+
+
